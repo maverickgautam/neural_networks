@@ -162,10 +162,6 @@ class GPT2 (nn.Module):
 
         # Use a placeholder for layerNorm
 
-
-
-
-
     def forward(self, in_idx):
 
         batch_size, seq_len = in_idx.shape
